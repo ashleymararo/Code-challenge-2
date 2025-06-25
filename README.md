@@ -11,8 +11,7 @@ Welcome to **Event Guest List Manager**, a simple JavaScript application designe
 Event-Guest-List-Manager/
  ├── index.html
  ├── style.css
- └── src/
-     └ index.js
+ └── index.js
 ```
 
 ## How It Works

@@ -1,5 +1,5 @@
 let form = document.getElementById("event-form")
-let input = document.getElementById("guestname")
+let input = document.getElementById("guestName")
 let guestList = document.getElementById("guest-list")
 
 let guests =[];
