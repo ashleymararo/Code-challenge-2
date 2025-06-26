@@ -36,8 +36,8 @@ Welcome to **Event Guest List Manager**, a simple and intuitive web app for mana
 ```
 Event-Guest-List-Manager/
  ├── index.html
- ├── style.css
- └── index.js
+ ├── index.js
+ └── style.css
 ```
 
 
