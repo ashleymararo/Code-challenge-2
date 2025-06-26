@@ -1,11 +1,37 @@
-# Event Guest List Manager
+#  Event Guest List Manager
 
-Welcome to **Event Guest List Manager**, a simple JavaScript application designed to help you manage your event's guest list efficiently. This repository includes the following main components:
+Welcome to **Event Guest List Manager**, a simple and intuitive web app for managing your event's guest list. Add guests, track their attendance, and remove them when needed — all in real time with a clean UI.
 
-1. **Event Guest List**
-   Allows you to add, delete, and track attendance for your guests in real time.
+---
 
-## 📁 Project Structure
+## Features
+
+-  Add guests with timestamps
+-  Toggle attendance status (Attending/Not Attending)
+-  Remove guests from the list
+-  Limit to 10 guests to avoid overcrowding
+
+---
+
+## How to Use
+
+1. Enter a guest's name in the input field.
+2. Click **Submit** to add them to the list.
+3. Use the **Attendance** button to toggle status.
+4. Click **X** to remove a guest.
+
+---
+
+## Tech Stack
+
+- **HTML** — Markup for the layout
+- **CSS** — Styling for that clean aesthetic
+- **JavaScript** — Handles guest list logic
+
+---
+
+
+## Project Structure
 
 ```
 Event-Guest-List-Manager/
@@ -14,11 +40,18 @@ Event-Guest-List-Manager/
  └── index.js
 ```
 
-## How It Works
 
-* **Add Guests**: Enter a guest's name and add them to the list alongside their timestamp.
-* **Remove Guests**: Easily delete a guest from the list.
-* **Toggle Attendance**: Change their attendance state with a simple click.
+---
+
+## Deployment
+
+To run this app:
+
+1. Open `index.html` in a browser directly **OR**
+2. Host it using GitHub Pages, Netlify, or Vercel for live preview.
+
+---
+
 
 ## Sample Interaction
 
@@ -30,3 +63,24 @@ Guest added with timestamp
 Ashley — Attending
 Remove | Toggle Attending
 ```
+
+---
+
+## Notes
+
+- Maximum of **10 guests** can be added.
+- Uses `Date.now()` for unique IDs and `toLocaleString()` for readable timestamps.
+
+---
+
+## Future Improvements
+
+- Add local storage so guest list is saved across sessions
+- Add search or sort functionality
+- Add checkbox for attendance instead of button
+
+---
+
+## Author
+
+Made with 💛 by Ashley
