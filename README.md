@@ -48,7 +48,7 @@ Event-Guest-List-Manager/
 To run this app:
 
 1. Open `index.html` in a browser directly **OR**
-2. Host it using GitHub Pages, Netlify, or Vercel for live preview.
+2. Host it using GitHub Pages
 
 ---
 
